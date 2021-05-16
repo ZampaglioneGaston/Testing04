@@ -29,12 +29,14 @@ describe('Locating Elements Test', function(){
 
     it('Search Apple Macbook', function(){
 
+        //Search product
         cy.get(this.main.searchBox).type('Apple MacBook Pro 13-inch');
         cy.get(this.main.searchButton).click();
         cy.wait(2000);
         cy.get(this.main.prodTitleSearch).should('contain', 'Apple MacBook Pro 13-inch')
         cy.get(this.main.addCart).click();
 
+        //Selec Quantity
         cy.get(this.item.prodTitlePage).should('contain', 'Apple MacBook Pro 13-inch')
         cy.get(this.item.prodQuantity).clear().type('2');
         cy.get(this.item.addCartQ).click();
@@ -42,7 +44,7 @@ describe('Locating Elements Test', function(){
         cy.get(this.item.shoppingCart).click();
         cy.wait(3000);
 
-    
+        //Checkout
         cy.get(this.cart.prodPrice).should('contain', '$1,800.00');
         cy.get(this.cart.total).should('contain', '$3,600.00')
         cy.get(this.cart.tos).check().should('be.checked');
@@ -50,6 +52,7 @@ describe('Locating Elements Test', function(){
         cy.get(this.cart.guestCheck).click();
         cy.wait(2000);
 
+        //Guest log in
         cy.get(this.form.formName).type('Solaris')
         cy.get(this.form.formLast).type('Pedro')
         cy.get(this.form.formEmail).type('SolarisPedro@gmail.com')
@@ -62,6 +65,7 @@ describe('Locating Elements Test', function(){
         cy.get(this.form.formPhone).type('123456');
         cy.get(this.form.formComfirm).click();
 
+        //Payment and shipment methods      
         cy.get(this.pay.shipOption1).check().should('be.checked');
         cy.get(this.pay.ShipConfirm).click();
         cy.get(this.pay.PayOp0).check().should('be.checked');
@@ -77,6 +81,7 @@ describe('Locating Elements Test', function(){
             expect(secondtext).to.equal(text);                                 //Assertion
         })
 
+        //Final checkout        //Payment and shipment methods        
         cy.get(this.pay.subtotal).should('contain', '$3,600.00');
         cy.get(this.pay.confirmButton).click();
 
