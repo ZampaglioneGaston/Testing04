@@ -1,0 +1,7 @@
+{
+    "prodPrice"     : ".product-unit-price",
+    "total"         : ".value-summary > strong",
+    "tos"           : "#termsofservice",
+    "checkout"      : "#checkout",
+    "guestCheck"    : ".checkout-as-guest-button"
+}

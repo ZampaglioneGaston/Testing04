@@ -1,0 +1,15 @@
+{
+    "formName"      :   "#BillingNewAddress_FirstName",
+    "formLast"      :   "#BillingNewAddress_LastName" , 
+    "formEmail"     :   "#BillingNewAddress_Email",
+    "formCompany"   :   "#BillingNewAddress_Company",
+    "formCountry"   :   "#BillingNewAddress_CountryId",   
+    "formState"     :   "#BillingNewAddress_StateProvinceId",
+    "formCity"      :   "#BillingNewAddress_City",
+    "formAd1"       :   "#BillingNewAddress_Address1", 
+    "formAd2"       :   "#BillingNewAddress_Address2",
+    "formZip"       :   "#BillingNewAddress_ZipPostalCode",
+    "formPhone"     :   "#BillingNewAddress_PhoneNumber",
+    "formFax"       :   "#BillingNewAddress_FaxNumber",
+    "formComfirm"   :   "#billing-buttons-container > .new-address-next-step-button"
+}

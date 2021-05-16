@@ -1,0 +1,16 @@
+{
+    "shipOption1"    :  "#shippingoption_1",
+    "ShipConfirm"    :  "#shipping-method-buttons-container > .button-1",
+    "PayOp0"         :  "#paymentmethod_0",
+    "PayOp1"         :  "#paymentmethod_1",
+    "PayButton"      :  "#payment-method-buttons-container > .button-1",
+    "PayInfoButton"  :  "#payment-info-buttons-container > .button-1",
+
+    "ad1"            : ".billing-info > .info-list > .address1",
+    "ad2"            : ".shipping-info > .info-list > .address1",
+
+    "subtotal"       : ".order-subtotal > .cart-total-right > .value-summary",
+    "confirmButton"  : "#confirm-order-buttons-container > .button-1",
+
+    "successful"     : ".section > .title > strong"
+} 

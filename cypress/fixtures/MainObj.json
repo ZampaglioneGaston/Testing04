@@ -1,0 +1,7 @@
+{
+    "searchBox"         : "#small-searchterms",
+    "searchButton"      : "#small-search-box-form > .button-1",
+    "prodTitleSearch"   : ".product-title > a",
+    "addCart"           : ".product-box-add-to-cart-button"
+
+}
