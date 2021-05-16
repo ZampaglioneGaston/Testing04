@@ -81,7 +81,7 @@ describe('Locating Elements Test', function(){
             expect(secondtext).to.equal(text);                                 //Assertion
         })
 
-        //Final checkout        //Payment and shipment methods        
+        //Final checkout              
         cy.get(this.pay.subtotal).should('contain', '$3,600.00');
         cy.get(this.pay.confirmButton).click();
 
