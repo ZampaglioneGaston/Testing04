@@ -2,6 +2,8 @@
 
 //Var
 let text
+let item
+let qty
 
 describe('Locating Elements Test', function(){
 
@@ -30,15 +32,18 @@ describe('Locating Elements Test', function(){
     it('Search Apple Macbook', function(){
 
         //Search product
-        cy.get(this.main.searchBox).type('Apple MacBook Pro 13-inch');
+        const item  = "Apple MacBook Pro 13-inch"
+        const qty   = "2"
+
+        cy.get(this.main.searchBox).type(item);
         cy.get(this.main.searchButton).click();
         cy.wait(2000);
-        cy.get(this.main.prodTitleSearch).should('contain', 'Apple MacBook Pro 13-inch')
+        cy.get(this.main.prodTitleSearch).should('contain', item)
         cy.get(this.main.addCart).click();
 
         //Selec Quantity
-        cy.get(this.item.prodTitlePage).should('contain', 'Apple MacBook Pro 13-inch')
-        cy.get(this.item.prodQuantity).clear().type('2');
+        cy.get(this.item.prodTitlePage).should('contain', item)
+        cy.get(this.item.prodQuantity).clear().type(qty);
         cy.get(this.item.addCartQ).click();
         cy.wait(2000);
         cy.get(this.item.shoppingCart).click();
@@ -81,7 +86,9 @@ describe('Locating Elements Test', function(){
             expect(secondtext).to.equal(text);                                 //Assertion
         })
 
-        //Final checkout              
+        //Final checkout     
+        cy.get('.product-name').should('contain', item); 
+        cy.get('.product-quantity').should('contain', qty);       
         cy.get(this.pay.subtotal).should('contain', '$3,600.00');
         cy.get(this.pay.confirmButton).click();
 
