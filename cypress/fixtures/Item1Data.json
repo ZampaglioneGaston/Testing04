@@ -1,0 +1,12 @@
+{
+    "item"         : "Apple MacBook Pro 13-inch",
+    "qty"          : "2",
+    "unitPrice"    : "$1,800.00",
+    "total"        : "$3,600.00",
+
+    
+    "prodTitlePage" : "h1",
+    "prodQuantity"  : "#product_enteredQuantity_4",
+    "addCartQ"      : "#add-to-cart-button-4",
+    "shoppingCart"  : "#topcartlink"    
+}

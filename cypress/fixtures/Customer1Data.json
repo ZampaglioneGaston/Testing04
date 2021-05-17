@@ -1,0 +1,21 @@
+{
+    "name"         : "Pedro",
+    "lastname"     : "Solaris",
+    "email"        : "SolarisPedro@gmail.com",
+    "company"      : "Solaris Tech",
+    "country"      : "Argentina",
+    "state"        : "Other",
+    "city"         : "Buenos Aires",
+    "address"      : "Corrientes 23",
+    "zipcode"      : "B1826",
+    "phone"        : "123456",
+
+    "shipOpt"      : "#shippingoption_1",
+
+    "cardType"     : "Master card",
+    "cardNumber"   : "5105105105105100",
+    "cardPin"      : "135",
+    "cardExpireM"  : "08",
+    "cardExpireY"  : "2026"
+    
+}

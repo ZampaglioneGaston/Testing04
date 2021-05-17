@@ -1,0 +1,12 @@
+{
+    "item"         : "HTC One M8 Android L 5.0 Lollipop",
+    "qty"          : "4",
+    "unitPrice"    : "$245.00",
+    "total"        : "$980.00",
+
+    
+    "prodTitlePage" : "h1",
+    "prodQuantity"  : "#product_enteredQuantity_18",
+    "addCartQ"      : "#add-to-cart-button-18",
+    "shoppingCart"  : "#topcartlink"    
+}

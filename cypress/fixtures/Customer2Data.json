@@ -1,0 +1,21 @@
+{
+    "name"         : "Luana",
+    "lastname"     : "Croci",
+    "email"        : "CrociL@gmail.com",
+    "company"      : "LCR",
+    "country"      : "New Zealand",
+    "state"        : "Other",
+    "city"         : "Wellington ",
+    "address"      : "Some street 1234",
+    "zipcode"      : "5000",
+    "phone"        : "123456",
+
+    "shipOpt"      : "#shippingoption_2",
+
+    "cardType"     : "Discover",
+    "cardNumber"   : "6011000990139424",
+    "cardPin"      : "135",
+    "cardExpireM"  : "06",
+    "cardExpireY"  : "2024"
+    
+}

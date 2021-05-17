@@ -1,0 +1,9 @@
+{
+    "CardType"       : "#CreditCardType",
+    "CardholderName" : "#CardholderName",
+    "CardNumber"     : "#CardNumber",
+    "ExpireMonth"    : "#ExpireMonth",
+    "ExpireYear"     : "#ExpireYear",
+    "CardCode"       : "#CardCode",
+    "confirmButton"  : "#payment-info-buttons-container > .button-1"
+}

@@ -1,16 +1,22 @@
 {
+    "shipOption0"    :  "#shippingoption_0",
     "shipOption1"    :  "#shippingoption_1",
+    "shipOption2"    :  "#shippingoption_2",
     "ShipConfirm"    :  "#shipping-method-buttons-container > .button-1",
-    "PayOp0"         :  "#paymentmethod_0",
-    "PayOp1"         :  "#paymentmethod_1",
+    "PayMethod0"     :  "#paymentmethod_0",
+    "PayMethod1"     :  "#paymentmethod_1",
     "PayButton"      :  "#payment-method-buttons-container > .button-1",
     "PayInfoButton"  :  "#payment-info-buttons-container > .button-1",
 
     "ad1"            : ".billing-info > .info-list > .address1",
     "ad2"            : ".shipping-info > .info-list > .address1",
 
+    "prodName"       : ".product-name",
+    "prodQty"        : ".product-quantity",
     "subtotal"       : ".order-subtotal > .cart-total-right > .value-summary",
     "confirmButton"  : "#confirm-order-buttons-container > .button-1",
 
-    "successful"     : ".section > .title > strong"
+    "successful"     : ".section > .title > strong",
+    "successMsg"   : "Your order has been successfully processed!"
+
 } 
